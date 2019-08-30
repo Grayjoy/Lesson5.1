@@ -2,11 +2,11 @@ import java.util.Scanner;
 
 public class Guess {
 
-    Scanner scanner = new Scanner(System.in);
+    private Scanner scanner = new Scanner(System.in);
 
-    int count;
-    int random = (int) (Math.random() * (10 - 1 + 1) + 1);
-    int scr;
+    private int count;
+    private int random = (int) (Math.random() * (10 - 1 + 1) + 1);
+    private int scr;
 
 
     public void game() {
